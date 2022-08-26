@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #a517ba , #5f1782 );
+    padding: 0 !important;
+}
+
+.navbar-brand img{
+    height: 2.2rem;
+    padding-left: 1.2rem;
+}
+
+.navbar-nav  li{
+    padding: 0 1rem;
+    position: relative;
+}
+.navbar-nav  li::after{
+    content: "";
+    height: .3rem;
+    width: 0%;
+    background-color: #fff;
+    margin-bottom: .2rem;
+    position: absolute;
+    left: 0;
+    bottom:  -.2rem;
+    transition: 0.5s;
+}
+
+.navbar-nav  li:hover::after{
+    width: 100%;
+}
+
+
+
+.navbar-nav a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+
+}
+.bi-list{
+    color: #fff !important;
+    font-size: 2rem;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+
+/*----- banner---------*/
+
+#banner{
+    background-image: linear-gradient(to right, #a517ba , #5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.banner--title{
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-top: 6rem;
+}
+
+.play-btn{
+    width: 2.5rem;
+    margin: 1.5rem;
+}
+
+#banner a{
+    color: #fff;
+    text-decoration: none;
+}
+.botton-img{
+    width: 100%;
+}
+
+
+/*----- services section ------*/
+
+
+#services{
+    padding: 5rem 0;
+}
+.services-img{
+    
+    margin: 1.5rem 0 ;
+}
+.services{
+    padding:1.5rem ;
+}
+.services h4{
+    padding: .5rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+
+.title::before{
+    content: "";
+    background: #7b1798;
+    height: .4rem;
+    width: 12rem;
+    margin: 0 auto;
+    display: block;
+    transform:translateY(4rem);
+
+}
+
+
+.title::after{
+    content: "";
+    background: #7b1798;
+    height: .8rem;
+    width: 4rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    display: block;
+    transform:translateY(.5rem);
+
+}
+
+
+#services .btn-info{
+    padding: .5rem 1.5rem;
+    border-radius: 1.2rem;
+    border: none;
+    background-image: linear-gradient(to right, #a517ba , #5f1782);
+}
+
+/*----- About-us ------*/
+
+
+
+
+#About-us{
+    padding: 3.2rem 0;
+ background: #f8f9fa;
+}
+
+
+.about-title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+#About-us ul li{
+    margin: .8rem 0;
+}
+#About-us ul{
+    margin-left: 1.5rem;
+}
+
+
+
+
+/*----- TESTIMONIALS ------*/
+
+#testimonials{
+    margin: 6rem 0;
+}
+
+
+.testimonials{
+    border-left:.2rem solid #7b1798 ;
+    margin: 3rem rem;
+}
+
+.testimonials img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: 0 1rem;
+}
+
+.user-detals{
+    display: inline-block;
+}
+
+
+
+/*--------social-media----------*/
+
+
+
+#social-media{
+    background-color: #f8f9fa;
+    padding: 6.2rem 0;
+}
+
+#social-media p{
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.social-media-icon img{
+    width: 3.5rem;
+    transition: 0.5s;
+
+}
+
+
+.social-media-icon img:hover{
+    transform: translateY(-.8rem);
+}
+
+
+
+
+/*------- footer--------*/
+
+
+#footer {
+    background-image: linear-gradient(to right, #a517ba , #5f1782);
+    color: #fff;
+}
+
+.footer-img{
+    width: 100%;
+}
+
+.footer-box{
+    padding:1.5rem;
+}
+
+.footer-box im {
+    width: 7rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-box i {
+    margin-right: .5rem;
+    font-size: 1.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    text-align: center;
+    padding-top: .4rem;
+    border-radius: 2px;
+    
+
+
+}
+
+.footer-box .form-control {
+    box-shadow: none !important; 
+    border: none;
+    border-radius: 0;
+    margin-top: 1.5rem;
+    max-width: 14rem;
+
+}
+
+.footer-box .btn-info {
+    box-shadow: none !important; 
+    border: none;
+    border-radius: 0;
+    margin-top: 2rem;
+    background-image: linear-gradient(to right, #a517ba , #5f1782);
+    
+}
+
+
+hr{
+   background-color: #fff;
+}
+
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 1.2rem;
+    text-align: center;
+
+}
